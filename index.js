@@ -7,6 +7,8 @@ const server = new ApolloServer({
   resolvers,
 });
 
+// 1:37:21 
+
 server.listen().then((url) => {
   console.log(`Your Api is Runningg ;) At ${url.url}`);
 });
